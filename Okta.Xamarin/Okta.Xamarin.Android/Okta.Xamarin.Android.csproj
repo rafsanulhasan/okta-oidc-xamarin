@@ -90,6 +90,8 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Identity\AndroidIdentityClientConfiguration.cs" />
+    <Compile Include="Identity\AndroidIdentityClientConfigurationProvider.cs" />
     <Compile Include="OktaLogoutCallbackInterceptorActivity.cs" />
     <Compile Include="OktaMainActivity.cs" />
     <Compile Include="AndroidOidcClient.cs" />
